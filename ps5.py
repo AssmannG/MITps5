@@ -57,7 +57,7 @@ def process(url):
 # TODO: NewsStory
 
 
-class NewsStory(object)
+class NewsStory(object):
     def __init__(self, guid, title, description, link, pubdate):
         '''
         Initializes a NewsStory object
