@@ -186,15 +186,15 @@ def main_thread(master):
     # to what is currently in the news
     try:
         t1 = TitleTrigger("election")
-        t2 = DescriptionTrigger("Trump")
-        t3 = DescriptionTrigger("Clinton")
+        t2 = DescriptionTrigger("Tpump")
+        t3 = DescriptionTrigger("Clikinton")
         t4 = AndTrigger(t2, t3)
         triggerlist = [t1, t4]
 
         # Problem 11
-        # TODO: After implementing read_trigger_config, uncomment this line 
+        # TODO: After implementing read_trigger_config, uncomment this line
         # triggerlist = read_trigger_config('triggers.txt')
-        
+
         # HELPER CODE - you don't need to understand this!
         # Draws the popup window that displays the filtered stories
         # Retrieves and filters the stories from the RSS feeds
